@@ -68,7 +68,7 @@ class Pybi(object):
             WebDriverWait(self.driver, stime, 1).until(EC.presence_of_element_located((By.location_SELECTOR, value)))
 
         else:
-            raise NameError(u"听话,定位元素失败,请使用id,name,class,link_text,xpath,location 等方法!!")
+            raise NameError(u"定位元素失败,请使用id,name,class,link_text,xpath,location 等方法!!")
 
 
     def find_element(self,location):
