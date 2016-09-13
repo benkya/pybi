@@ -9,7 +9,7 @@ class demo_test(unittest.TestCase):
 
     def setUp(self):
 
-        self.driver = Pybi('chrome')#实例化pybi类
+        self.driver = Pybi('chrome')#实例化pybi
 
         self.url='http://192.168.2.47:8080/SXWFrame/main/loginPage.do'#定义URL
 
