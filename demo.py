@@ -29,7 +29,7 @@ class demo_test(unittest.TestCase):
         mydriver.set_value('id=>username','admin') #使用set_value方法设置username文本框的值,其中set_value方法默认调用了find_element方法。
         mydriver.set_value('id=>password','123456') #使用set_value方法设置password 用id的方式
 
-        mydriver.click("xpath=>//li/input[@type='button']") #使用click方法点击登录按钮。用xpath的方式
+        mydriver.click("xpath=>//li/input[@type='button']") #用click方法点击登录按钮。用xpath的方式
 
         '''
 
